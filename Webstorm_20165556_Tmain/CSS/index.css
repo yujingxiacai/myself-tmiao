@@ -1,0 +1,21 @@
+#menue{
+    text-decoration: none;
+    list-style: none;
+    font-size: 12px;
+}
+.p1{
+    float: left;
+    text-decoration: none;
+}
+a:link{
+    text-decoration:none;
+}
+.meue{
+    float: right;
+    list-style: none;
+}
+
+.meue .l1{
+    margin:0 5px 0;
+    float: left;
+}
