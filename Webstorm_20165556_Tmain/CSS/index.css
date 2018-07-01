@@ -13,9 +13,39 @@ a:link{
 .meue{
     float: right;
     list-style: none;
+
 }
 
 .meue .l1{
     margin:0 5px 0;
     float: left;
+    position: relative;
+}
+li .Tr::after{
+    content: '';
+    height: 0px;
+    width: 0;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #ff00cc transparent transparent transparent;
+    position:absolute ;
+    right: -7px;
+    top: 50%;
+
+}
+.bc{
+    position: relative;
+    left: 5px;
+}
+.buyinfo{
+    list-style: none;
+    position: absolute;
+    right: -40px;
+    left: 2px;
+    clear: both;
+    display: none;
+}
+.l1:hover .buyinfo{
+    background: #eaffea;
+    display:block;
 }
