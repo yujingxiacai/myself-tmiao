@@ -3,15 +3,13 @@
     padding: 0;
 }
 #header{
-background: #cccccc;
+    background: #f2f2f2;
     height: 32px;
-    color: greenyellow;
+    color: #999;
     line-height: 32px;
     font-size: 12px;
+    border-bottom: 1px solid #e5e5e5;
 }
 #header a{
-    color: greenyellow;
-}
-#header a:hover{
-    color: #ff00cc;
+    color: #999;
 }
