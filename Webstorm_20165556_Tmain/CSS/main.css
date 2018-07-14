@@ -13,3 +13,11 @@
 #header a{
     color: #999;
 }
+.warper{
+    margin: 0 auto;
+    width: 1230px;
+}
+/*wrapper是正确写法，这里就不改正了*/
+li{
+    list-style: none;
+}

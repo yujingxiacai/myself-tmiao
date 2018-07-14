@@ -1,9 +1,10 @@
+/*header开始*/
 #menue{
     text-decoration: none;
     list-style: none;
     font-size: 12px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 180px;
+    margin-right: 180px;
 }
 .p1{
     float: left;
@@ -30,7 +31,6 @@ a:link{
     border-color:#f2f2f2;
     border-style: solid;
 }
-
 .meue .l1{
     /*margin:0 10px 0 10px;*/
     padding: 0 14px 0 14px;
@@ -116,3 +116,142 @@ li.qr:hover .qr-code{
     display: block;
 
 }
+/*header结束*/
+
+/*search开始*/
+.search-loge{
+    height:130px ;
+}
+.search-loge .loge img{
+    width: 240px;
+}
+.search-loge .loge,.search-loge .search{
+    float: left;
+
+}
+.search .hot-search li{
+    list-style: none;
+}
+.search .search-bar{
+    border: 2px solid  ;
+    border-color: #ff0036;
+    height: 32px;
+    width: 627px;
+}
+.search input{
+    width: 491px;
+    height: 28px;
+    float: left;
+    outline: none;
+    font-size: 15px;
+}
+.search button{
+    width: 132px;
+    height: 32px;
+    /*padding-left: 10px;*/
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    float: right;
+    color: #ffffff;
+    background: #ff0036;
+    border: 0;
+
+
+}
+.hot-search{
+    margin-top: 6px;
+}
+.hot-search .hot{
+    float: left;
+    border-right: 2px solid #e5e5e5;
+    padding: 0 10px;
+
+}
+.hot-search a{
+    color: #999;
+}
+.hot-search .highlight a{
+    color: #ff0036;
+}
+.search{
+    margin: 38px 0 0 50px;
+}
+
+/*search结束*/
+
+
+/*navbar开始*/
+.navbar{
+    height: 36px;
+}
+.classfication{
+    /*height: 36px;*/
+    position: relative;
+}
+.classfication-header{
+    position: absolute;
+    top: 0px;
+    left: 16px;
+    width: 200px;
+    height: 36px;
+    background: #ff0036;
+    color: #ffffff;
+    line-height: 36px;
+    /*clear: both;*/
+
+}
+.classfication i{
+    margin-left: 14px;
+}
+.classfication span {
+margin-left: 8px;
+}
+.Tarea li{
+    float: left;
+    list-style: none;
+    height: 36px;
+    line-height: 36px;
+    margin-right: 15px;
+}
+
+.Tarea .area img{
+width: 100px;
+}
+.Tarea .area a{
+    font-size: 15px;
+    color: #cccccc;
+}
+.Tarea li:hover a{
+    color: #ff0036;
+}
+.main-banner{
+    background: #ff520b;
+}
+.main-banner .main-choose{
+    margin-left: 16px;
+    width: 200px;
+    height: 500px;
+    color: #e5e5e5;
+    background: rgba(0,0,0,0.5);
+}
+.main-choose a{
+    color: #ffffff;
+}
+.main-choose li{
+    padding-top: 10px;
+    /*overflow: hidden;*/
+}
+.main-banner .warper{
+    height:500px;
+    background: url(../img/banner1.webp) no-repeat center;
+}
+.main-banner .main-choose li:hover a{
+    color: #ff0036;
+}
+.main-banner .main-choose li:hover{
+    background: #f2f2f2;
+    color:#ff0036;
+}
+/*navbar结束*/
