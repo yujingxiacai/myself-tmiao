@@ -37,6 +37,20 @@ a:link{
     float: left;
     position: relative;
 }
+li .Tr:hover::after{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+
+    -webkit-transition: transform .5s ease;
+    -moz-transition: transform .5s ease;
+    -ms-transition: transform .5s ease;
+    -o-transition: transform .5s ease;
+    transition: transform .5s ease;
+}
+
 li .Tr::after{
     content: '';
     height: 0px;
@@ -47,6 +61,15 @@ li .Tr::after{
     position:absolute ;
     right: 4px;
     top: 48%;
+
+
+
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+    transform-origin: 3px 1.5px;
 
 }
 li .qr-code .qrT::after{
@@ -255,3 +278,132 @@ width: 100px;
     color:#ff0036;
 }
 /*navbar结束*/
+
+/*sidebar开始*/
+.sidebar{
+
+    position: fixed;
+    right: 0;
+    top:0;
+    bottom: 0;
+    width: 35px;
+    background: #000;
+}
+.sidebar .sidebar-content{
+    color: #ffffff;
+    font-size: 12px;
+}
+.sidebar-content .content-vip{
+    margin-top: 100px;
+}
+.sidebar .sidebar-content li{
+    position: relative;
+
+}
+.content-vip i{
+    margin-left: 10px;
+}
+.content-vip .vip-equities{
+    width: 70px;
+    text-align: center;
+    height: 18px;
+    line-height: 18px;
+    position: absolute;
+    top: 0;
+    left: -150px;
+    background: #494949;
+    opacity: 0;
+
+}
+.sidebar .content-vip:hover .vip-equities{
+    opacity: 1;
+    position: absolute;
+    top:0;
+    left: -70px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.sidebar .content-vip:hover{
+    background: #ff0036;
+}
+.content-vip .vip-tr::after{
+    content: '';
+    border-style: solid;
+    border-color: transparent transparent transparent #494949;
+    border-width: 4px;
+    position: absolute;
+    top: 5px;
+    right: -7px;
+}
+
+/*sidebar结束*/
+
+
+/*brand开始*/
+.brand-list li{
+    position: relative;
+    height:108px;
+    width: 122px;
+}
+.brand img{
+    height:50px;
+    width: 100px;
+    /*border:1px solid #cccccc;*/
+
+    /*居中的一种方法*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left:-50px;
+    margin-top: -25px;
+
+}
+.brand .brand1 .brand1-picture{
+    height:108px;
+    width: 122px;
+    /*border: 1px solid red;*/
+    position: relative;
+    background: #ffffff;
+}
+.brand .brand-in{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 122px;
+    height: 108px;
+    opacity: 0;
+    background: #494949;
+    color: #ffffff;
+
+}
+.brand-in .bottom-brand{
+    color: #ffffff;
+
+}
+.brand-in .title-brand{
+    margin-top: 30px;
+    text-align: center;
+}
+.brand .brand-list{
+    margin-left: 16px;
+}
+.brand-in .bottom-brand p{
+    width: 80px;
+    background-color: #ff0036;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 22px;
+}
+
+.brand-list .brand1:hover .brand-in{
+    opacity: 1;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    transition: all .8s ease;
+}
+/*brand结束*/
